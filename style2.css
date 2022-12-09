@@ -1,0 +1,35 @@
+body {
+  background-color: #333;
+}
+
+.slider {
+  margin: 40px auto;
+  width: 720px;
+}
+
+.slide {
+  width: 600px;
+  height: 350px;
+  overflow: hidden;
+  float: left;
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  display: none;
+  border-radius: 15px;
+}
+
+.prev,
+.next {
+  width: 40px;
+  float: left;
+  margin: 150px 10px 0 10px;
+  cursor: pointer;
+}
+
+.slide .show {
+  display: inline-block;
+}

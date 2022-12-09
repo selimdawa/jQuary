@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.faq {
+  width: 500px;
+  margin: 50px auto;
+}
+
+.title {
+  cursor: pointer;
+  background-color: #3399dd;
+  color: #fff;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+}
+
+.title:hover {
+  background-color: #fff;
+  color: #3399dd;
+}
+
+.content {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.item:first-child .title {
+  border-radius: 10px 10px 0 0;
+}
+
+.item:last-child .title {
+  border-radius: 0 0 10px 10px;
+}
